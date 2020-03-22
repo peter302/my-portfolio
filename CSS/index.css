@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Carter+One|Fredericka+the+Great|Rancho&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+    navbar a {
+
+      display: block;
+    }
+ @media only screen and (max-width: 200px){
+        #container{
+            background-color: black;
+            color: white;
+        }
+    }
+.pic{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.pic img{
+    width: 300px;
+}
+
+
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.top{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../images/fly.jpg');
+    height: 800px;
+    background-size: cover;
+    margin-top: 0%;
+}
+
+
+h1{
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+    font-family: 'Carter One', cursive;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+
+}
+.about{
+    box-shadow: 5px 5px 10px gray;
+    width: 300px;
+    padding: 10px;
+}
+.card{
+    box-shadow: 5px 5px 10px gray;
+
+}
+.about:hover{
+    transform: scale(1.1);
+}
+
+.list-skills{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+#skills{
+    margin-top: 20px;
+}
+.project{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+#project{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+  .me{
+
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 50px;
+      text-align: center;
+      font-weight: 200px;
+      color: aliceblue;
+      margin-top: 13%;
+      font-family: 'Rancho', cursive;
+
+  }
+  #contact{
+      background-color: yellowgreen;
+      margin-top: 20px;
+      display: flex;
+  }
+  #contact span{
+      margin-bottom:20px;
+  }
+  #form{
+      width: 200px;
+      padding: 5px;
+  }
+  .card-body ul li{
+    list-style: lower-roman;
+  }
+  @media only screen and(max-width:450px){
+      .flex{
+          width: 100vw;
+      }
+  }
+
+  .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+
+  }
+
+  .navbar a {
+    float: left;
+    padding: ;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #000;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    overflow: auto;
+
+  }
+
+  .navbar a {
+    float: left;
+    padding:12px ;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #000;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .copy{
+      text-align:center;
+
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .copy{
+      text-align:center;
+  }
