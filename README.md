@@ -2,7 +2,7 @@
 
 - My portfolio to sell me to the job market, Friday Jan 29 2020 ::
 
-- By Opana peter kuria
+- By peter kuria
 
 ## Description
 
