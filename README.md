@@ -16,7 +16,7 @@
 - HTML
 - CSS
 - Support and contact details
-- Reach me at johnopana2016@gmail.com
+- Reach me at petermbaik@2016@gmail.com
 
 ## License
 - MIT - https://opensource.org/licenses/MIT
